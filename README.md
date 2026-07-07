@@ -2,9 +2,8 @@ This is the demo that shows a datasheet.
 
 <img src="https://images2018.cnblogs.com/blog/359743/201806/359743-20180603225915973-2039825735.png" />
 
-* [Java17](https://adoptium.net/temurin/releases/?version=17)
-* Spring Boot    
->> [3.x](https://spring.io/projects/spring-boot#learn)
+* [Java17](https://learn.microsoft.com/en-us/java/openjdk/download#openjdk-17)
+* [Spring Boot - 4.x](https://start.spring.io)
 * JPA    
 >> [v3.1](https://jakarta.ee/specifications/persistence/3.1/jakarta-persistence-spec-3.1.pdf)
 * MySQL
