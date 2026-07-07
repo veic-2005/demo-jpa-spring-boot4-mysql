@@ -31,7 +31,7 @@ public class RedisFactoryConfig {
 		RedisClusterConfiguration redisClusterConfiguration;
 
 		redisClusterConfiguration = new RedisClusterConfiguration(
-				new MapPropertySource("RedisClusterConfiguration", source));
+				java.util.Arrays.asList(new MapPropertySource("RedisClusterConfiguration", source).getPropertyNames()) );
 
 		return new LettuceConnectionFactory(redisClusterConfiguration);
 
